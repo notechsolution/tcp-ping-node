@@ -1,0 +1,36 @@
+{
+  "name": "tcp-ping-node",
+  "version": "1.0.0",
+  "author": "Lames Zeng",
+  "license": "MIT",
+  "main": "ping.js",
+  "description": "TCP ping utility for node.js with promise support",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notechsolution/tcp-ping-node"
+  },
+  "bugs": {
+    "url": "https://github.com/notechsolution/tcp-ping-node/issues"
+  },
+  "homepage": "https://github.com/notechsolution/tcp-ping-node",
+  "keywords": [
+    "tcp",
+    "ping",
+    "promise",
+    "health",
+    "healthcheck",
+    "health check"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.15.0"
+  },
+  "ava": {
+    "files": [
+      "./*.test.js"
+    ]
+  }
+}
